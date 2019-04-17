@@ -5,6 +5,8 @@ public class App {
         LinkedList ll = new LinkedList();
 
         ll.insertEnd(1);
+        ll.insertEnd(10);
+        ll.insertEnd(10);
         ll.insertEnd(2);
         ll.insertEnd(3);
         ll.insertEnd(4);
@@ -14,8 +16,14 @@ public class App {
         ll.insertEnd(8);
         ll.insertEnd(9);
         ll.insertEnd(10);
+        ll.insertEnd(10);
+        ll.insertEnd(10);
+        ll.insertEnd(10);
+        ll.insertEnd(11);
 
-        ll.insertMiddle(11);
+        ll.deleteAll(10);
+
+
         ll.traverse();
     }
 }

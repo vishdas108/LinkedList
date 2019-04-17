@@ -19,12 +19,17 @@ public class LinkedList {
     public void insertEnd(int data){
 
         LinkedListNode newNode = new LinkedListNode(data);
-
+        // create a newNode
         if(head==null){
+            /*assign head if there is no head..*/
             head = newNode;
             return;
         }
-
+/* copy node traverse on this.
+*       While inserting to END,
+* 1)make sure that currentPointer is not NULL.--> this indicates lastNode
+* 2)nextNode of currentPointer is not null, --> this is required for incrementing the pointer.
+* */
         LinkedListNode traversingNode = head;
 
             while (traversingNode!=null && traversingNode.nextNode!=null){
@@ -58,6 +63,34 @@ public class LinkedList {
         LinkedListNode tempNode = smallPointer.nextNode;
         smallPointer.nextNode=newNode;
         newNode.nextNode=tempNode;
+    }
+
+    /*
+    * Deleting by data. traverse the LinkedList
+    * if Node found, remove the link and attach to next one.
+    * */
+    public void deleteAll(int data){
+
+        LinkedListNode traversingNode=head;
+        LinkedListNode previousNode=null;
+        while (traversingNode!=null){
+
+            if (data== traversingNode.data){ // need to remove currentPointer
+                previousNode.nextNode=traversingNode.nextNode; // skip the link,
+                // previousNode should Not change, it should remain same.
+
+
+        // resetting the traverseNode.
+                //traversingNode= previousNode.nextNode;// This also works,
+                traversingNode= previousNode;//only traversingNode should go back one point, because traverseNode was removed, this is safer.
+                continue;
+
+            }
+            previousNode= traversingNode;
+            traversingNode= traversingNode.nextNode;
+        }
+
+
     }
 
     public void traverse(){
