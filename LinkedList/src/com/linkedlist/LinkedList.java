@@ -1,3 +1,5 @@
+package com.linkedlist;
+
 public class LinkedList {
 
     public LinkedListNode head;
@@ -11,8 +13,9 @@ public class LinkedList {
             head= newNode;
         return;
         }
-
-        newNode.nextNode= head;
+        System.out.println("inserting data "+ data +" Before head node"+ head.data);
+        newNode.nextNode= head;// link the newNode with head
+        head= newNode;// make newNode as HEAD
 
     }
 
@@ -66,7 +69,7 @@ public class LinkedList {
     }
 
     /*
-    * Deleting by data. traverse the LinkedList
+    * Deleting by data. traverse the com.linkedlist.LinkedList
     * if Node found, remove the link and attach to next one.
     * */
     public void deleteAll(int data){
@@ -91,6 +94,19 @@ public class LinkedList {
         }
 
 
+    }
+
+
+    public LinkedListNode popHead(){
+        if (head==null)
+            return null;
+
+        // here backing head,reference to head will be removed
+        LinkedListNode poppedNode = head;
+
+        head = head.nextNode;// increment the head
+
+        return poppedNode;
     }
 
     public void traverse(){
