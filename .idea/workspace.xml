@@ -180,11 +180,11 @@
       </method>
     </configuration>
     <configuration name="StackUsingLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.problems.StackUsingLinkedList.StackUsingLinkedList" />
+      <option name="MAIN_CLASS_NAME" value="com.linkedlist.StackUsingLinkedList.StackUsingLinkedList" />
       <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.problems.StackUsingLinkedList.*" />
+          <option name="PATTERN" value="com.linkedlist.StackUsingLinkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>

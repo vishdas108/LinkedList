@@ -1,6 +1,5 @@
-package com.problems.StackUsingLinkedList;
+package com.linkedlist.StackUsingLinkedList;
 
-import com.linkedlist.App;
 import com.linkedlist.LinkedList;
 import com.linkedlist.LinkedListNode;
 
