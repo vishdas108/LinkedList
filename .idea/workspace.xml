@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/FindNthNodeFromEndOfTheLinkedList/NthNodeFromLast.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/FindNthNodeFromEndOfTheLinkedList/NthNodeFromLast.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +26,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="187">
+              <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -54,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/FindNthNodeFromEndOfTheLinkedList/NthNodeFromLast.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="308">
-              <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+              <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -102,12 +101,12 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/problems/StackUsingLinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/problems/StackUsingLinkedList/StackUsingLinkedList.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/FindNthNodeFromEndOfTheLinkedList/NthNodeFromLast.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="280" />
     <option name="width" value="1750" />
@@ -318,17 +317,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/FindNthNodeFromEndOfTheLinkedList/NthNodeFromLast.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="41" column="51" selection-start-line="41" selection-start-column="51" selection-end-line="41" selection-end-column="51" />
+          <caret line="41" column="39" lean-forward="true" selection-start-line="41" selection-start-column="39" selection-end-line="41" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
         </state>
       </provider>
     </entry>

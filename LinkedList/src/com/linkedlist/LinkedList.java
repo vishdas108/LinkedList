@@ -25,18 +25,18 @@ public class LinkedList {
             LinkedListNode NthPointer  = head;
             LinkedListNode tempPointer  = head;
 
-            int count=0;
+            int count=0; // need counter to start moving nth pointer
             while (tempPointer!=null){
 
                 tempPointer= tempPointer.nextNode;
                 ++count;
-                if(count<=n){
+                if(count<=n){// this block will be skipped until the diff between two nodes equals to n
                     continue;
                 }
                 NthPointer=NthPointer.nextNode;
 
             }
-                if(n==0)
+                if(n==0)// means return null
                     return tempPointer;
 
         return NthPointer ;//TODO
