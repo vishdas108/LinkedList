@@ -19,6 +19,29 @@ public class LinkedList {
 
     }
 
+        public LinkedListNode printNthNodeFromEnd(int n){
+
+            LinkedListNode traverseNode  = head;
+            LinkedListNode NthPointer  = head;
+            LinkedListNode tempPointer  = head;
+
+            int count=0;
+            while (tempPointer!=null){
+
+                tempPointer= tempPointer.nextNode;
+                ++count;
+                if(count<=n){
+                    continue;
+                }
+                NthPointer=NthPointer.nextNode;
+
+            }
+                if(n==0)
+                    return tempPointer;
+
+        return NthPointer ;//TODO
+        }
+
     public void insertEnd(int data){
 
         LinkedListNode newNode = new LinkedListNode(data);
