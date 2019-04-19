@@ -132,6 +132,15 @@ public class LinkedList {
         return poppedNode;
     }
 
+        public void addAll(int ... args){
+
+            for (int arg:args
+                 ) {
+                insertEnd(arg);
+            }
+
+        }
+
     public void traverse(){
 
         LinkedListNode traverseNode = head;
