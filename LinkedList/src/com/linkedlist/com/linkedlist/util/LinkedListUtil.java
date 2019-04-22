@@ -32,7 +32,7 @@ public class LinkedListUtil {
         public com.linkedlist.LinkedList build(){
             com.linkedlist.LinkedList ll = new com.linkedlist.LinkedList();
 
-
+        return ll;
 
         }
 

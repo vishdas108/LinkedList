@@ -128,7 +128,7 @@ public class LinkedList {
         LinkedListNode poppedNode = head;
 
         head = head.nextNode;// increment the head
-
+            poppedNode.nextNode=null;
         return poppedNode;
     }
 
