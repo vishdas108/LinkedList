@@ -22,7 +22,7 @@ public class App {
         ll.insertEnd(10);
         ll.insertEnd(10);
         ll.insertEnd(11);
-
+    //committed
         ll.deleteAll(10);
 
 
