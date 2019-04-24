@@ -8,13 +8,18 @@ public class InsertionSort {
         LinkedList ll = new LinkedList();
         ll.insertEnd(1);
         ll.insertEnd(10);
+        ll.insertEnd(10);
+        ll.insertEnd(-1);
+        ll.insertEnd(199);
+        ll.insertEnd(-6);
+        ll.insertEnd(10);
         ll.insertEnd(5);
         ll.insertEnd(6);
-        ll.insertEnd(8);
+        ll.insertEnd(-8);
         ll.insertEnd(9);
-        ll.insertEnd(15);
+        ll.insertEnd(-15);
         ll.insertEnd(16);
-        ll.insertEnd(19);
+        ll.insertEnd(-19);
         /*ll.insertEnd(9);
         ll.insertEnd(9);
         ll.insertEnd(8);
@@ -60,7 +65,7 @@ public class InsertionSort {
 
     public static LinkedList sort(LinkedList ll){
 
-        LinkedList llToReturn = new LinkedList();
+        LinkedList llToReturn = new LinkedList();// create a empty linkedList
 
         LinkedListNode newLinkedListHeadNode=null;// we call this a null Node. or empty Linked List.
         // a null can also be assumed as empty LinkedList.
@@ -69,15 +74,28 @@ public class InsertionSort {
 
             // we delink everyNode and insert into new Empty/NULL CHAIN. Pop the currentPoppedHead of the LinkedList
 
-       LinkedListNode currentHead= ll.popHead();
 
-       if (newLinkedListHeadNode==null){
-           newLinkedListHeadNode= currentHead;
+
+       if (newLinkedListHeadNode==null){// check if the head of newLinkedList is null, then assign the head from the original
+           //newLinkedListHeadNode= ll.popHead(); // here we'll pop the headNode and assign it to new LinkedList
+           llToReturn.head= ll.popHead();
        }
 
         System.out.println("currentPoppedHead of NewLinkedList " + newLinkedListHeadNode.data);
         LinkedListNode currentPoppedHead;
+        /*
+            Pop head from original Linked List and
+        * insert into new Linked list, at a correct position.
+
+                three levels of check:
+                LESS_THAN: If Less, insert behind currentNode
+                            (Node_to_insert/popped_head).next = node_in_comparison
+
+
+        * */
         while ((currentPoppedHead=ll.popHead())!=null){
+                //   newLinkedListHeadNode =ll.head;
+
             while(newLinkedListHeadNode!=null){
                 int currentNodeData= newLinkedListHeadNode.data;
 
@@ -98,8 +116,9 @@ public class InsertionSort {
             }else if(dataToInsert > currentNodeData){
 
 
-                System.out.println("data is greater than currNode");
-                if(newLinkedListHeadNode.nextNode==null || dataToInsert< newLinkedListHeadNode.nextNode.data){
+
+                if(newLinkedListHeadNode.nextNode==null || dataToInsert < newLinkedListHeadNode.nextNode.data){
+                    System.out.println("data is greater than currNode INSERTING NODE::: "+ currentPoppedHead.data);
                     LinkedListNode tempNode=newLinkedListHeadNode.nextNode;
                     newLinkedListHeadNode.nextNode= currentPoppedHead;
                     currentPoppedHead.nextNode= tempNode;
@@ -112,7 +131,7 @@ public class InsertionSort {
 
 
         }
-    llToReturn.head= newLinkedListHeadNode;
+   // llToReturn.head= newLinkedListHeadNode;
     return  llToReturn;
     }
 

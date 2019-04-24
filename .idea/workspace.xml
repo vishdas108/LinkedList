@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/IsLinkedListCircular/CircularLinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,11 +38,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="17">
+              <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/IsLinkedListCircular/CircularLinkedList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -106,6 +116,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>currentHead</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -121,6 +136,7 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/IsLinkedListCircular/CircularLinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java" />
       </list>
     </option>
@@ -157,6 +173,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="StackUsingLinkedList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="linkedlist" type="462c0819:PsiDirectoryNode" />
+              <item name="StackUsingLinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="IsLinkedListCircular" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -188,10 +219,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.InsertionSort">
+  <component name="RunManager" selected="Application.CircularLinkedList">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedlist.App" />
       <module name="LinkedList" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CircularLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedlist.problems.StackUsingLinkedList.IsLinkedListCircular.CircularLinkedList" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedlist.problems.StackUsingLinkedList.IsLinkedListCircular.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,9 +284,11 @@
       <item itemvalue="Application.NthNodeFromLast" />
       <item itemvalue="Application.StackUsingLinkedList" />
       <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.CircularLinkedList" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CircularLinkedList" />
         <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.NthNodeFromLast" />
         <item itemvalue="Application.StackUsingLinkedList" />
@@ -273,6 +319,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -283,15 +330,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.4011713" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39970717" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.22693998" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32064423" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.329429" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -324,15 +371,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java</url>
-          <line>80</line>
+          <line>98</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java</url>
-          <line>100</line>
+          <line>120</line>
           <properties />
-          <option name="timeStamp" value="10" />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java</url>
+          <line>124</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java</url>
+          <line>126</line>
+          <properties />
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -393,10 +452,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/IsLinkedListCircular/CircularLinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
+        <state relative-caret-position="17">
+          <caret line="69" column="7" lean-forward="true" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
