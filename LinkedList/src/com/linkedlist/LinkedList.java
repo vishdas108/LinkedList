@@ -43,6 +43,24 @@ public class LinkedList {
 
         }
 
+        public void reverseInGroup(int groupSize){
+
+            LinkedListNode previousNode = null;
+            LinkedListNode traverseNode = head;
+
+            int counter=1;
+            while (traverseNode!=null){
+
+                if(counter==groupSize){
+                    LinkedListNode tempNode = traverseNode.nextNode;
+                    
+
+                }
+                traverseNode= traverseNode.nextNode;
+            }
+
+        }
+
         public LinkedListNode printNthNodeFromEnd(int n){
 
             LinkedListNode traverseNode  = head;
