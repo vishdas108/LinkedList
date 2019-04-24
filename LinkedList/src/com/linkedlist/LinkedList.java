@@ -4,7 +4,13 @@ public class LinkedList {
 
     public LinkedListNode head;
 
+        public LinkedList(LinkedListNode head){
+            this.head= head;
+        }
+        // even if you declare any constructor, default constructor need to be declared
+        public LinkedList(){
 
+        }
 
     public void insertStart(int data){
         LinkedListNode newNode = new LinkedListNode(data);
@@ -18,6 +24,24 @@ public class LinkedList {
         head= newNode;// make newNode as HEAD
 
     }
+
+        public void reverse(){
+            LinkedListNode previous = null;
+            LinkedListNode traverseNode=head;
+
+            while (traverseNode!=null){
+
+
+                LinkedListNode tempNode = traverseNode.nextNode;
+                traverseNode.nextNode= previous;
+                previous= traverseNode;
+                traverseNode= tempNode;
+
+            }
+
+            this.head= previous;
+
+        }
 
         public LinkedListNode printNthNodeFromEnd(int n){
 
