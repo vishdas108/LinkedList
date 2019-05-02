@@ -45,17 +45,20 @@ public class LinkedList {
 
         public void reverseInGroup(int groupSize){
 
+            reverse();// first reverse the linkedList
             LinkedListNode previousNode = null;
             LinkedListNode traverseNode = head;
 
-            int counter=1;
+            int counter=1;// start the counter from position1.
             while (traverseNode!=null){
 
                 if(counter==groupSize){
                     LinkedListNode tempNode = traverseNode.nextNode;
-                    
+
 
                 }
+                counter++;
+                previousNode= traverseNode;
                 traverseNode= traverseNode.nextNode;
             }
 
