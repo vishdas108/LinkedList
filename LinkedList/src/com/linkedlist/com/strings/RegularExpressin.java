@@ -57,6 +57,30 @@ public class RegularExpressin {
                         anything between dollar sign --->>> \$.*?\$
                         \d{2,3}\.\d{2,3}\.\d{2,3}\.\d{1,3}
                         href=[\"].*?\"|href=[\'].*?\'
+                        <h\d\s*.*>.*</h\d>
+                            start with "<h" tag, followed by any space "\s", now any character can occur so use ".*" and ">" to lock anything
+                            within the "<h-- tag>" and give ".*" for anything withing the tag, now end with "</h\d>" close the tag.
+
+
+                        [(]*[78]\d+.\s*\d{3}.\d{4}
+                        [(]*--> start with "(" or not start with open brace character
+                        [78]--> number should start with 7 or 8
+                        [78]\d+--> start with 7 or 8 followed by any number of digits.
+                        .--> can be any character
+                        \s*--> space may exist or not
+                        \d{3}--> followed by 3 digits
+                        .--> can be any character
+                        \d{4}--> can be 4 digits.
+
+
+                        .*?
+                        dot-star non-greedy, which will make it match as few characters as possible:
+
+
+
+
+
+
 
         * */
 
