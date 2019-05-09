@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/STACKS/Problems.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/ReverseAString.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/ReverseAString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,8 +51,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+            <state relative-caret-position="277">
+              <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -102,7 +98,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="170" />
     <option name="y" value="280" />
     <option name="width" value="1750" />
@@ -291,7 +287,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2590604" />
@@ -524,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="40" column="12" selection-start-line="40" selection-start-column="12" selection-end-line="40" selection-end-column="12" />
+        <state relative-caret-position="277">
+          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
         </state>
       </provider>
     </entry>

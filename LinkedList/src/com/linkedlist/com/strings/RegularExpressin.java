@@ -9,7 +9,7 @@ public class RegularExpressin {
             ?-->         makes the statement in bracket optional EX: ^\d+(\.\d+)?
         *
 
-            .           Matches any character
+            . (dot)          Matches any character
             ^regex      Finds regex that must match at the beginning of the line.
             regex$      Finds regex that must match at the end of the line.
             [abc]       Set definition, can match the letter a or b or c.
@@ -30,6 +30,7 @@ public class RegularExpressin {
             \W          A non-word character [^\w]
             \S+         Several non-whitespace characters
             \b          Matches a word boundary where a word character is [a-zA-Z0-9_]
+            \B, matches any position that is not a word boundary. This matches a position, not a character.
 
             3.3. Quantifier
 
@@ -40,6 +41,22 @@ public class RegularExpressin {
             {X}         Occurs X number of times, {} describes the order of the preceding liberal           \d{3} searches for three digits, .{10} for any character sequence of length 10.
             {X,Y}       Occurs between X and Y times,                                                       \d{1,4} means \d must occur at least once and at a maximum of four.
             *?          ? after a quantifier makes it a reluctant quantifier. It tries to find the smallest match. This makes the regular expression stop at the first match.
+
+
+
+            (ABC), groups multiple tokens together and creates a capture group for extracting a substring or using a backreference.
+
+            \1, matches the results of a previous capture group. For example \1 matches the results of the first capture group and \3 matches the third.
+            (?:ABC), groups multiple tokens together without creating a capture group.
+            (?=ABC), matches a group after the main expression without including it in the result.
+            (?!ABC), specifies a group that can not match after the main expression (if it matches, the result is discarded).
+
+
+                        ***************************************TEST*************************************************************
+                        \d{2,3}\.\d{2,3}\.\d{2,3}\.\d{1,3}
+                        anything between dollar sign --->>> \$.*?\$
+                        \d{2,3}\.\d{2,3}\.\d{2,3}\.\d{1,3}
+                        href=[\"].*?\"|href=[\'].*?\'
 
         * */
 
