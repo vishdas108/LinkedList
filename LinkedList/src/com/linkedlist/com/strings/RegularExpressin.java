@@ -76,9 +76,28 @@ public class RegularExpressin {
                         .*?
                         dot-star non-greedy, which will make it match as few characters as possible:
 
+                        .*program(?=creek).*
+                        programcreek matches
+                         programriver doesn't match
+
+                          ?= is positive lookahead and ?! is negative lookahead.
 
 
+                        2. Look Behind
 
+                            Lookbehind is similar. We can use ?<= for positive look behind and ?<! for negative lookbehind.
+
+                            .*(?<=program)creek.*
+
+                            programcreek matches
+                            softwarecreek doesn't match
+
+
+                    (?<=author={(?!\w*(?:\sand\s))).*(?=})
+                    (?<=author={).*(?=})
+                    exclude first (?<=yourtext)
+
+                    exclude last(?=yourtext)
 
 
 
