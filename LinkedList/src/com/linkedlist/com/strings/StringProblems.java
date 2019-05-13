@@ -9,6 +9,17 @@ public class StringProblems {
 
     }
 
+    /*
+    * from this example you learn you can use regex
+    * task has be done on two different parts,
+    * first: remove all CAPS
+    * second: remove all NON-CAPS
+    * concat.
+    * problem solving technique,
+    *
+    * module based, build solution at two different positions, and implement it.
+    *
+    * */
     public void moveAllUpperCaseToEnd(String input){
 
         StringBuilder builder = new StringBuilder();
@@ -24,4 +35,11 @@ public class StringProblems {
 
         System.out.println("result: " + result);
     }
+
+        public void printDuplicateCharacter(String input){
+
+
+
+        }
+
 }

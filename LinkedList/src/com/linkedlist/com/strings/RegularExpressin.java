@@ -51,6 +51,7 @@ public class RegularExpressin {
             (?=ABC), matches a group after the main expression without including it in the result.
             (?!ABC), specifies a group that can not match after the main expression (if it matches, the result is discarded).
 
+            Backreferences match the same text as previously matched by a capturing group
 
                         ***************************************TEST*************************************************************
                         \d{2,3}\.\d{2,3}\.\d{2,3}\.\d{1,3}
@@ -98,6 +99,8 @@ public class RegularExpressin {
                     exclude first (?<=yourtext)
 
                     exclude last(?=yourtext)
+
+
 
 
 
