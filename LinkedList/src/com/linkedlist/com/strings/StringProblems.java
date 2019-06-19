@@ -1,12 +1,14 @@
 package com.linkedlist.com.strings;
 
+import java.util.regex.Pattern;
+
 public class StringProblems {
 
         public static StringProblems INSTANCE = new StringProblems();
 
     public static void main(String[] args) {
-        INSTANCE.moveAllUpperCaseToEnd("Hello Vishwa");
-
+       // INSTANCE.moveAllUpperCaseToEnd("Hello Vishwa");
+        INSTANCE.printDuplicateCharacter("!abc!");
     }
 
     /*
@@ -37,7 +39,9 @@ public class StringProblems {
     }
 
         public void printDuplicateCharacter(String input){
-
+            Pattern p = Pattern.compile("");
+            String s = input.replaceAll("!(!)", "");
+            System.out.println(s);
 
 
         }
