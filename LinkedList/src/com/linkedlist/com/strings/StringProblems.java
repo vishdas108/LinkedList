@@ -1,5 +1,10 @@
 package com.linkedlist.com.strings;
 
+import java.math.BigDecimal;
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.DecimalFormatSymbols;
+import java.util.Arrays;
 import java.util.regex.Pattern;
 
 public class StringProblems {
@@ -7,9 +12,41 @@ public class StringProblems {
         public static StringProblems INSTANCE = new StringProblems();
 
     public static void main(String[] args) {
-       // INSTANCE.moveAllUpperCaseToEnd("Hello Vishwa");
+        INSTANCE.moveAllUpperCaseToEnd("Hello Vishwa");
+        System.out.println("");
         INSTANCE.printDuplicateCharacter("!abc!");
+        System.out.println("");
+        System.out.println(INSTANCE.reverseByWords("the sky is blue"));;
+        System.out.println("");
+        String[] strings = INSTANCE.groupItems(new String[]{"a", "b", "c","d","e", "1", "2", "3","4","5"});
+
+        for (String string: strings
+             ) {
+            System.out.println(string);
+        }
+        System.out.println(BigDecimal.valueOf(999999999999999999999.99));
+        DecimalFormatSymbols fts = new DecimalFormatSymbols();
+        fts.setDecimalSeparator('.');
+
+        BigDecimal nativeValue = BigDecimal.valueOf(999999999999999999999.99d);
+
+        int digitsAfterPointMin=0;
+        int digitsAfterPointMax=2;
+
+        DecimalFormat ft = new DecimalFormat("#,0", fts);
+
+        ft.setMinimumFractionDigits(digitsAfterPointMin);
+        ft.setMaximumFractionDigits(digitsAfterPointMax);
+
+       // nativeValue = nativeValue.setScale(digitsAfterPointMax, RoundingMode.);
+        System.out.println(nativeValue);
+        System.out.println("nativeValue.doubleValue()" +nativeValue.doubleValue());
+
+        String format = ft.format(nativeValue.doubleValue());
+        System.out.println(format);
+        System.out.println(format);
     }
+
 
     /*
     * from this example you learn you can use regex
@@ -34,16 +71,100 @@ public class StringProblems {
         // input.replaceAll("[^A-Z]", "") = HV
         // concat both ello ishwaHV
         String result = input.replaceAll("[A-Z]", "") + input.replaceAll("[^A-Z]", "");
-
+        System.out.println(" moving all upper cases to End of the string ");
         System.out.println("result: " + result);
+        System.out.println("");
+
     }
 
         public void printDuplicateCharacter(String input){
             Pattern p = Pattern.compile("");
             String s = input.replaceAll("!(!)", "");
             System.out.println(s);
-
+            System.out.println("");
 
         }
 
+
+        public String reverseByWords(String sentence){
+                /*
+                * we have a sentence,
+                * now find the last index of space,
+                * if there is no space index value will return as -1, then return the sentence only.
+                * or else subString the sentence by (spaceIndex+1, lengthOfString)
+                * return this new substring concating
+                * {
+                *   ex: now the last word has been removed, so I need to substring the main sentence to exclude the word
+                *       now I substring from (0, spaceIndex)--> spaceIndex is exclusive.
+                *        prefix this string with space. i.e, " " + subString(0, spaceIndex)
+                *
+                *
+                * }
+                *
+                * */
+            int spaceIndex = sentence.lastIndexOf(" ");
+
+                if(spaceIndex<0 ){
+                    return sentence;
+                }
+
+
+
+                return sentence.substring(spaceIndex+1, sentence.length()) +" "+ reverseByWords(sentence.substring(0,spaceIndex));
+
+
+            }
+
+
+            public void removeDuplicatesFromString(String text){
+
+
+
+
+
+            return ;
+
+            }
+
+            private void group(String [] items, int firstHalfIndex, int secondHalfIndex){
+
+                if(items.length/2 == firstHalfIndex){
+                    return;
+                }
+
+
+
+            }
+
+            public String [] groupItems(String [] items){
+
+                    for (int i=0, j= items.length/2;i<items.length/2;i=i+2,j++){
+
+                        String bkp=  items[i+1];
+                       // System.out.println("bkp string " + bkp);
+                        //System.out.print("items which was moved  to " + i+1+ " was moved to " );
+                        System.out.println(Arrays.toString(items));
+                        System.out.println("i = " + i );
+                        System.out.println("j = "+ j);
+                        System.out.println("bkp = "+ bkp);
+                        items[i+1]=items[j];
+
+                        int k=j;
+                        String bkpInner=null;
+                            while(k>i+2){
+
+                                  items[k]=items[k-1];
+
+                                k--;
+                            }
+
+                            items[i+2]= bkp;
+
+                    }
+
+
+                System.out.println(Arrays.toString(items));
+              return items;
+
+            }
 }
