@@ -12,7 +12,19 @@ public class TreeApp {
         tree.insert(5);
         tree.insert(4);
         tree.insert(6);
-        tree.traverseInorder();
+
+        BinaryTree tree2 = new BinaryTree();
+        tree2.insert(2);
+        tree2.insert(1);
+        tree2.insert(3);
+        tree2.insert(5);
+        tree2.insert(4);
+        tree2.insert(6);
+
+        TreeNode treeNode = tree.mergeTwoTrees(tree.root, tree2.root);
+        BinaryTree result = new BinaryTree();
+        result.root= treeNode;
+        tree.traverseInOrder(result);
 
     }
 }

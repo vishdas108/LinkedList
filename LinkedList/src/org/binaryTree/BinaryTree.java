@@ -4,7 +4,7 @@ import java.util.Stack;
 
 public class BinaryTree {
 
-    private TreeNode root;
+    public TreeNode root;
 
 
     public void insert(int data){
@@ -89,6 +89,74 @@ public class BinaryTree {
 
 
 
+
+
+
+    }
+
+/*
+*Given two binary trees and imagine that when you put one of them to cover the other, some nodes of the two trees are overlapped while the others are not.
+* You need to merge them into a new binary tree. The merge rule is that if two nodes overlap, then sum node values up as the new value of the merged node. Otherwise, the NOT null node will be used as the node of new tree.
+* Input:
+	Tree 1                     Tree 2
+          1                         2
+         / \                       / \
+        3   2                     1   3
+       /                           \   \
+      5                             4   7
+Output:
+Merged tree:
+	     3
+	    / \
+	   4   5
+	  / \   \
+	 5   4   7
+*
+*
+*
+*
+*
+* SOLN
+*
+* Consider we are merging leftNode of a Tree.
+* consider we are merging t2 into t1
+*
+* if both nodes exists then we we add the values into t1 and return t1.
+* else we should return present node, null can't be added ryt!!
+*      This is happening for eachNode
+*       Operation Node, takeCare of left and right Node as well.
+* */
+    public TreeNode  mergeTwoTrees(TreeNode t1, TreeNode t2){
+
+        if(t1==null && null  == t2){
+            return t1;
+        }
+
+
+        if(t1==null){
+            return t2;
+        }
+        if(t2==null){
+            return t1;
+
+        }
+        t1.leftNode = mergeTwoTrees(t1.leftNode,t2.leftNode);
+        t1.rightNode = mergeTwoTrees(t1.rightNode,t2.rightNode);
+
+        t1.data = t1.data+t2.data;
+
+
+
+        return t1;
+    }
+
+    public void traverseInOrder(BinaryTree tree){
+
+        traverseInOrder(tree.root);
+
+    }
+
+    public void printInorder(){
 
 
 

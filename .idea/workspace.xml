@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,7 +32,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
+            <state relative-caret-position="136">
               <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
               <folding>
                 <element signature="e#161#162#0" expanded="true" />
@@ -41,20 +42,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+            <state relative-caret-position="334">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+            <state relative-caret-position="357">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -98,8 +99,8 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" />
       </list>
     </option>
   </component>
@@ -348,6 +349,30 @@
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java</url>
+          <line>145</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java</url>
+          <line>142</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java</url>
+          <line>143</line>
+          <properties />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java</url>
+          <line>130</line>
+          <properties />
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -487,7 +512,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="136">
           <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
           <folding>
             <element signature="e#161#162#0" expanded="true" />
@@ -496,17 +521,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
+        <state relative-caret-position="334">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java">
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="68" column="6" selection-start-line="68" selection-start-column="6" selection-end-line="68" selection-end-column="6" />
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>
