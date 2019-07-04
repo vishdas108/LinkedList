@@ -37,9 +37,11 @@ public class BinaryTree {
         this node also checks, if there is any smallerNode by checking leftNode exists or not.
         if not print the currentNode
 
-        once the smallNode is printed, we need to print bigger node
+        once the smallNode is printed, anything above is bigger than rightNode, if rightNode exist,
+        give control to that rightNode to print, now this rightNode will be root, so follow same principle
+        printing anyNode, check is smaller exists before printing. 
 
-        
+
 
     *
     * */
