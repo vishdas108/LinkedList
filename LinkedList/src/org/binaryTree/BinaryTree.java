@@ -1,5 +1,7 @@
 package org.binaryTree;
 
+import java.util.Stack;
+
 public class BinaryTree {
 
     private TreeNode root;
@@ -39,7 +41,7 @@ public class BinaryTree {
 
         once the smallNode is printed, anything above is bigger than rightNode, if rightNode exist,
         give control to that rightNode to print, now this rightNode will be root, so follow same principle
-        printing anyNode, check is smaller exists before printing. 
+        printing anyNode, check is smaller exists before printing.
 
 
 
@@ -56,6 +58,39 @@ public class BinaryTree {
         if(root.rightNode!=null){
             traverseInOrder(root.rightNode);
         }
+
+    }
+
+
+/*
+*
+*
+*
+* TODO
+*
+*
+*
+* */
+    public void traverseInOrderIteratively(TreeNode rootNode){
+
+        Stack<TreeNode> stk = new Stack<>();
+
+        TreeNode traversalNode = rootNode;
+
+            stk.push(traversalNode);
+
+            while(!stk.isEmpty()){
+
+                if(stk.peek().rightNode!=null){
+                    stk.push(stk.peek().rightNode);
+                }
+
+            }
+
+
+
+
+
 
     }
 }
