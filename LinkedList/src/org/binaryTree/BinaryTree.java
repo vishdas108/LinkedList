@@ -5,15 +5,19 @@ import java.util.Stack;
 public class BinaryTree {
 
     public TreeNode root;
-
+    public int size;
 
     public void insert(int data){
 
         if(root==null){
             root = new TreeNode(data);
+            size= size+1;
+            return;
         }
 
-        root.insert(data);
+        if(root.insert(data)){
+            size=size+1;
+        };
 
     }
 
@@ -150,15 +154,199 @@ Merged tree:
         return t1;
     }
 
-    public void traverseInOrder(BinaryTree tree){
+    public void traverseInOrder(){
 
-        traverseInOrder(tree.root);
+        traverseInOrder(root);
 
     }
+
 
     public void printInorder(){
 
 
+        printInOrder(root,new StringBuilder());
 
     }
+
+    private void printInOrder(TreeNode node, StringBuilder builder){
+
+        if(node==null){
+            return;
+
+        }
+
+        builder.append("" +
+                "" +
+                "" +
+                "");
+
+    }
+
+    public int findHeight(){
+        return findHeight(root);
+    }
+
+    private int findHeight(TreeNode node){
+
+        if (node==null){
+            return 0;
+        }else{
+
+            int leftHeight = findHeight(node.leftNode);
+            int rightHeight = findHeight(node.rightNode);
+
+            if(leftHeight> rightHeight){
+                return 1+leftHeight;
+            }else {
+                return rightHeight +1;
+            }
+
+
+
+        }
+
+
+
+    }
+
+
+
+    //*****************************************************************************************************************************
+
+    public Integer [] toArray(){
+        // number of nodes  is (2^h)-1
+            Integer [] array  = new Integer[(int)Math.pow(2,findHeight())-1];
+                array[0]= root.data;
+     toArray(root, array,0);
+
+        return array;
+    }
+
+    private void toArray(TreeNode root, Integer [] array, int index ){
+
+        if(root==null || index >= array.length){
+            return ;
+        }
+
+        array[index]= root.data;
+        int leftIndex = index*2+1;
+        int rightIndex = index*2+2;
+        //if(root.leftNode!=null)
+            toArray(root.leftNode, array, leftIndex);
+       // if(root.rightNode!=null)
+            toArray(root.rightNode, array,rightIndex);
+
+
+        return ;
+    }
+
+
+    public int findSum(){
+
+        return findSum(root);
+    }
+
+
+    public int findSum(TreeNode node){
+        if(node== null){
+            return 0;
+        }
+
+
+       return node.data+findSum(node.leftNode)+findSum(node.rightNode);
+
+    }
+    //*****************************************************************************************************************************
+
+
+
+    //*****************************************************************************************************************************
+
+    /*
+    *654. Maximum Binary Tree
+    * Given an integer array with no duplicates. A maximum tree building on this array is defined as follow:
+
+        1)The root is the maximum number in the array.
+        2)The left subtree is the maximum tree constructed from left part subarray divided by the maximum number.
+        3)The right subtree is the maximum tree constructed from right part subarray divided by the maximum number.
+    *
+    *
+    * Construct the maximum tree by the given array and output the root node of this tree.
+    *
+    * Example 1:
+Input: [3,2,1,6,0,5]
+Output: return the tree root node representing the following tree:
+
+      6
+    /   \
+   3     5
+    \    /
+     2  0
+       \
+        1
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    *
+    * */
+
+
+
+
+
+
+
+
+    //*****************************************************************************************************************************
+
+
+
+    //*****************************************************************************************************************************
+
+    /*
+    *
+    * We are given the head node root of a binary tree, where additionally every node's value is either a 0 or a 1.
+
+Return the same tree where every subtree (of the given tree) not containing a 1 has been removed.
+
+(Recall that the subtree of a node X is X, plus every node that is a descendant of X.)
+*
+*
+    *
+    *
+    *
+    *Example 1:
+        Input: [1,null,0,0,1]
+        Output: [1,null,0,null,1]
+
+        Explanation:
+        Only the red nodes satisfy the property "every subtree not containing a 1".
+        The diagram on the right represents the answer.
+
+
+    *
+    *
+    *Example 2:
+     Input: [1,0,1,0,0,0,1]
+        Output: [1,null,1,null,1]
+
+
+
+    *
+    *
+    * */
+
+
+
+    //*****************************************************************************************************************************
 }

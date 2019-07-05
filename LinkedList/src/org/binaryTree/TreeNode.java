@@ -12,30 +12,31 @@ public TreeNode(int data){
     this.data= data;
 }
 
-public void insert(int data){
+public boolean insert(int data){
 
-    if(data<this.data){
+    if(data<=this.data){
 
         if(this.leftNode==null){
             this.leftNode= new TreeNode(data);
-
+            return true;
         }else {
-            this.leftNode.insert(data);
+         return   this.leftNode.insert(data);
         }
 
 
 
 
-    }else if(data>this.data){
+    }else if(data>=this.data){
 
         if(this.rightNode== null){
             this.rightNode = new TreeNode(data);
+            return true;
         }else{
-            this.rightNode.insert(data);
+           return this.rightNode.insert(data);
         }
 
     }
-
+return  false;
 }
 
 
