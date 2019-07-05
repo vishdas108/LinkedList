@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/TreeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/TreeApp.class" afterDir="false" />
-    </list>
+    <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,8 +55,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="397">
+              <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -112,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1020" />
@@ -282,7 +275,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21409395" />
@@ -553,8 +546,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="397">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
         </state>
       </provider>
     </entry>
