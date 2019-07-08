@@ -21,6 +21,104 @@ public class BinaryTree {
 
     }
 
+   //*****************************************************************************
+
+    public boolean delete(int data){
+
+
+            delete(root,data);
+
+        return false;
+
+    }
+
+
+    private TreeNode delete( TreeNode node, int data){
+
+      /*  if(node ==null){
+            return null;
+        }*/
+
+    if(node.data==data){
+        // for leaf Node
+        if(node.leftNode==null && node.rightNode==null){
+            return null;
+
+        }else if(node.leftNode!=null && node.rightNode==null){
+
+            return root.leftNode;
+
+
+
+        }else if(node.rightNode!=null && node.leftNode==null){
+
+                return root.rightNode;
+
+        }else if(node.rightNode!=null && node.leftNode!=null){
+
+            TreeNode minNode= getMinimum(node.rightNode);
+            minNode.leftNode=node.leftNode;
+            return minNode;
+
+        }
+
+
+
+    }else if(data<node.data){
+
+         node.leftNode=  delete(node.leftNode,data);
+        System.out.println();
+        }else if(data>node.data){
+       node.rightNode= delete(node.rightNode,data);
+    }
+        return null;
+
+    }
+
+
+    public TreeNode getMinimum(){
+        return getMinimum(root);
+    }
+
+
+    public TreeNode getMaximum(){
+
+        return getMaximum(root);
+    }
+
+    private TreeNode getMaximum(TreeNode node){
+
+        if(node ==null){
+            return null;
+        }
+
+        if(node.rightNode!=null){
+            return getMaximum(node.rightNode);
+        }else {
+
+            return node;
+        }
+
+
+    }
+
+    private TreeNode getMinimum(TreeNode node){
+
+
+
+
+        if(node.leftNode!=null){
+        return     getMinimum(node.leftNode);
+        }
+
+
+        return node;
+    }
+
+
+
+   //*****************************************************************************
+
     // problem one printTree
     public void traverseInorder(){
 
