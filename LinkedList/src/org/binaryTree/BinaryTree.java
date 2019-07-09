@@ -21,6 +21,104 @@ public class BinaryTree {
 
     }
 
+   //*****************************************************************************
+
+    public boolean delete(int data){
+
+
+            delete(root,data);
+
+        return false;
+
+    }
+
+
+    private TreeNode delete( TreeNode node, int data){
+
+      /*  if(node ==null){
+            return null;
+        }*/
+
+    if(node.data==data){
+        // for leaf Node
+        if(node.leftNode==null && node.rightNode==null){
+            return null;
+
+        }else if(node.leftNode!=null && node.rightNode==null){
+
+            return root.leftNode;
+
+
+
+        }else if(node.rightNode!=null && node.leftNode==null){
+
+                return root.rightNode;
+
+        }else if(node.rightNode!=null && node.leftNode!=null){
+
+            TreeNode minNode= getMinimum(node.rightNode);
+            minNode.leftNode=node.leftNode;
+            return minNode;
+
+        }
+
+
+
+    }else if(data<node.data){
+
+         node.leftNode=  delete(node.leftNode,data);
+        System.out.println();
+        }else if(data>node.data){
+       node.rightNode= delete(node.rightNode,data);
+    }
+        return null;
+
+    }
+
+
+    public TreeNode getMinimum(){
+        return getMinimum(root);
+    }
+
+
+    public TreeNode getMaximum(){
+
+        return getMaximum(root);
+    }
+
+    private TreeNode getMaximum(TreeNode node){
+
+        if(node ==null){
+            return null;
+        }
+
+        if(node.rightNode!=null){
+            return getMaximum(node.rightNode);
+        }else {
+
+            return node;
+        }
+
+
+    }
+
+    private TreeNode getMinimum(TreeNode node){
+
+
+
+
+        if(node.leftNode!=null){
+        return     getMinimum(node.leftNode);
+        }
+
+
+        return node;
+    }
+
+
+
+   //*****************************************************************************
+
     // problem one printTree
     public void traverseInorder(){
 
@@ -345,6 +443,92 @@ Return the same tree where every subtree (of the given tree) not containing a 1 
     *
     *
     * */
+
+
+
+    //*****************************************************************************************************************************
+
+
+    /*
+    *
+    * Input:
+
+     4
+   /   \
+  2     7
+ / \   / \
+1   3 6   9
+    *
+    *
+    *
+    *
+    * Output:
+
+     4
+   /   \
+  7     2
+ / \   / \
+9   6 3   1
+    *
+    *
+    *
+    *
+    *
+    * */
+    //*****************************************************************************************************************************
+    public TreeNode invertTree(TreeNode root) {
+
+        if(root==null){
+            return root;
+        }
+
+        TreeNode bkp = root.leftNode;
+
+
+        root.leftNode= root.rightNode;
+        root.rightNode = bkp;
+
+        invertTree(root.leftNode);
+        invertTree(root.rightNode);
+
+
+
+        return root;
+    }
+
+    //*****************************************************************************************************************************
+
+
+    //*****************************************************************************************************************************
+    /*
+    *
+    *
+    *
+    *
+    * compareTwoTrees
+    *
+    * */
+
+    public boolean isSame(BinaryTree tree){
+
+        return isSame(tree.root, this.root);
+    }
+
+    private boolean isSame(TreeNode node1, TreeNode node2){
+
+    if(node1 ==null && node2!=null){
+        return false;
+    }else if(node1!=null && node2==null){
+        return false;
+    }else if(node1!=null && node2!=null){
+        if(node1.data!=node2.data){
+            return false;
+        }
+
+        return isSame(node1.leftNode,node2.leftNode) && isSame(node1.rightNode,node2.rightNode);
+    }
+    return true;
+    }
 
 
 
