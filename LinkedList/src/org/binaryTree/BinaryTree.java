@@ -25,7 +25,7 @@ public class BinaryTree {
 
     public boolean delete(int data){
 
-
+        System.out.println("First input data and pass it to method with root and data.. helpful for recursion");
             delete(root,data);
 
         return false;
@@ -39,19 +39,36 @@ public class BinaryTree {
             return null;
         }*/
 
+        /*
+        * LOGIC:
+        *
+        *
+        *
+        * */
+
     if(node.data==data){
         // for leaf Node
+        System.out.println("if the current NODE data is equal!!");
         if(node.leftNode==null && node.rightNode==null){
+            System.out.println("CASE 1: it's a leafNode");
+
+            System.out.println("If current Node is LeafNode, then return Null. Why?");
+            System.out.println("parent NODE is evaluating if left, right Node is equivalent NODE to delete");
+            System.out.println("It'll be reassigning the returned NODE ");
+            System.out.println("When return null, i.e, currentNode is eligible to delete, so parentNode will reassign the child to null ");
+
             return null;
 
         }else if(node.leftNode!=null && node.rightNode==null){
+            System.out.println("CASE: Contains one children, it's leftNode exists, Parent is eligible to delete, so the Parent's parent will resign the parent, like promoting the children");
+            System.out.println();
 
             return root.leftNode;
 
 
 
         }else if(node.rightNode!=null && node.leftNode==null){
-
+            System.out.println("CASE: Contains one children, it's leftNode exists, Parent is eligible to delete, so the Parent's parent will resign the parent, like promoting the children");
                 return root.rightNode;
 
         }else if(node.rightNode!=null && node.leftNode!=null){
@@ -67,9 +84,14 @@ public class BinaryTree {
     }else if(data<node.data){
 
          node.leftNode=  delete(node.leftNode,data);
-        System.out.println();
-        }else if(data>node.data){
-       node.rightNode= delete(node.rightNode,data);
+
+        System.out.println("current Node "+ node.data +" is not equal to data "+data +" : Data is less than node data, hence delegating to it's LEFT-CHILD-NODE, so reassign the left child node and return current node");
+
+    return node;
+    }else if(data>node.data){
+        System.out.println("current Node "+ node.data +" is not equal to data "+data+ " : Data is greater than node data, hence delegating to it's RIGHT-CHILD-NODE, so reassign the right child node and return current node");
+        node.rightNode= delete(node.rightNode,data);
+    return node;
     }
         return null;
 

@@ -22,7 +22,7 @@ public class TreeApp {
         tree2.insert(1);
         tree2.insert(3);
 
-        Integer[] ints = tree.toArray();
+     //   Integer[] ints = tree.toArray();
        // System.out.println(Arrays.toString(ints));
        // System.out.println(((TreeNode)tree.getMinimum()).data);
 
@@ -37,12 +37,12 @@ public class TreeApp {
         deleteData.insert(80);
 
 
-        deleteData.delete(30);
+        deleteData.delete(20);
         System.out.println("");
      //   System.out.println(((TreeNode)deleteData.getMaximum()).data);
         deleteData.traverseInOrder();
 
-        System.out.println(tree2.isSame(tree));
+        //System.out.println(tree2.isSame(tree));
 
        // System.out.println(tree2.getMinimum());
         //  tree2.insert(5);
