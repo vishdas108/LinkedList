@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/BinaryTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/BinaryTree.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/TreeApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/org/binaryTree/TreeApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +31,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+            <state relative-caret-position="85">
+              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
               <folding>
-                <element signature="e#0#1884#0" expanded="true" />
+                <element signature="e#0#4574#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -327,7 +321,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,7 +330,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52374303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -620,10 +614,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="88" selection-start-line="6" selection-start-column="88" selection-end-line="6" selection-end-column="88" />
+        <state relative-caret-position="85">
+          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
           <folding>
-            <element signature="e#0#1884#0" expanded="true" />
+            <element signature="e#0#4574#0" expanded="true" />
           </folding>
         </state>
       </provider>
