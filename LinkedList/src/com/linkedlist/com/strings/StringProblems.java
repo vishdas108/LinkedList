@@ -4,7 +4,9 @@ import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.regex.Pattern;
 
 public class StringProblems {
@@ -24,27 +26,22 @@ public class StringProblems {
              ) {
             System.out.println(string);
         }
-        System.out.println(BigDecimal.valueOf(999999999999999999999.99));
-        DecimalFormatSymbols fts = new DecimalFormatSymbols();
-        fts.setDecimalSeparator('.');
 
-        BigDecimal nativeValue = BigDecimal.valueOf(999999999999999999999.99d);
+     //   INSTANCE.longestSubstringWithoutRepeatingCharacters("abcabcbb");
+      //  INSTANCE.longestSubstringWithoutRepeatingCharacters("bbbbb");
+       // INSTANCE.longestSubstringWithoutRepeatingCharacters("pwwkew");
+        INSTANCE.longestSubstringWithoutRepeatingCharacters(" ");
+     //   INSTANCE.longestSubstringWithoutRepeatingCharacters("bwf");
+        INSTANCE.longestSubstringWithoutRepeatingCharacters("dvdf");
+        INSTANCE.longestSubstringWithoutRepeatingCharacters("pwwkew");
 
-        int digitsAfterPointMin=0;
-        int digitsAfterPointMax=2;
+        INSTANCE.substringwithConcatenationOfAllWords("",new String []{});
 
-        DecimalFormat ft = new DecimalFormat("#,0", fts);
 
-        ft.setMinimumFractionDigits(digitsAfterPointMin);
-        ft.setMaximumFractionDigits(digitsAfterPointMax);
+
 
        // nativeValue = nativeValue.setScale(digitsAfterPointMax, RoundingMode.);
-        System.out.println(nativeValue);
-        System.out.println("nativeValue.doubleValue()" +nativeValue.doubleValue());
 
-        String format = ft.format(nativeValue.doubleValue());
-        System.out.println(format);
-        System.out.println(format);
     }
 
 
@@ -82,6 +79,13 @@ public class StringProblems {
             String s = input.replaceAll("!(!)", "");
             System.out.println(s);
             System.out.println("");
+
+        }
+
+        public void permutationOfAString(Character [] string){
+
+
+
 
         }
 
@@ -166,5 +170,68 @@ public class StringProblems {
                 System.out.println(Arrays.toString(items));
               return items;
 
+            }
+
+
+        public List<Integer> substringwithConcatenationOfAllWords(String s, String[] words){
+                List<Integer> startIndexes = new ArrayList<>();
+                s = "barfoothefoobarman";
+                words = new String []{"foo","bar"};
+                    String dummy =s;
+            for (String word :words
+                 ) {
+            String replaceString = "";
+                for (int i = 0; i < word.length() ; i++){
+                    replaceString= replaceString.concat(" ");
+                } {
+
+                }
+             dummy =   dummy.replaceAll(word,replaceString);
+            }
+            while(true){
+                int i = dummy.indexOf(" ");
+                startIndexes.add(i);
+                dummy = dummy.substring(i,dummy.length()).trim();
+                    if(!dummy.contains(" ")){
+                        break;
+                    }
+            }
+
+            System.out.println(" dummy " + dummy);
+
+        return null;
+}
+/*
+TODO
+* */
+            private void longestSubstringWithoutRepeatingCharacters(String input){
+
+                String result="";
+                String append= "";
+                if(input.length()==1){
+                    result= input;
+                   // return;
+                }
+
+                for(int i=0; i<input.length(); i++){
+                    String charString = String.valueOf(input.charAt(i));
+                    if(!append.contains(charString)){
+                          append=        append.concat(charString);
+                    }
+                        if (i==input.length() ||append.length() > result.length()) {
+                         // String tempResult= append;
+                            result = result.substring(result.indexOf(charString)+1, result.length()).concat(charString);
+                            append = charString;
+
+                        }
+
+
+
+                }
+        if(result.length()==0){
+            result = append;
+        }
+
+                System.out.println("longest substring === "+ result+ " size " + result.length());
             }
 }
