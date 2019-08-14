@@ -1,6 +1,7 @@
 package com.linkedlist.com.strings;
 
 import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
 import java.text.DecimalFormatSymbols;
@@ -22,10 +23,7 @@ public class StringProblems {
         System.out.println("");
         String[] strings = INSTANCE.groupItems(new String[]{"a", "b", "c","d","e", "1", "2", "3","4","5"});
 
-        for (String string: strings
-             ) {
-            System.out.println(string);
-        }
+
 
      //   INSTANCE.longestSubstringWithoutRepeatingCharacters("abcabcbb");
       //  INSTANCE.longestSubstringWithoutRepeatingCharacters("bbbbb");

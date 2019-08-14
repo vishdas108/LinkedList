@@ -48,9 +48,9 @@ public class Basic {
     public Integer instanceVariable= Integer.valueOf(3);
 
 
-    public String shadow ="global value";
+    public java.lang.String shadow ="global value";
 
-    public String main =""; // you can have both method and variable with same name.
+    public java.lang.String main =""; // you can have both method and variable with same name.
 
 /*
 * On calling--> java Basic 1 2 3 4 : File Name(Basic) is not a part of arguments: args[0]=1, so on... in total four arguments are present
@@ -87,7 +87,7 @@ public class Basic {
            // final String shadow =""; this is valid
            // local variable must be initialized before usage
           // you can't apply "synchronized" and "native" to any variable
-           String shadow = "localGlobal";
+           java.lang.String shadow = "localGlobal";
         // local variables will shadow the global variables
        }catch (Exception e){
 

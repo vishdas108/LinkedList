@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
-              <caret line="208" column="33" selection-start-line="208" selection-start-column="33" selection-end-line="208" selection-end-column="33" />
+            <state relative-caret-position="-9">
+              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -28,11 +40,59 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+            <state>
+              <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
               <folding>
                 <element signature="e#0#4574#0" expanded="true" />
               </folding>
@@ -41,28 +101,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/lang/String.class">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3111">
-              <caret line="217" column="15" selection-start-line="217" selection-start-column="15" selection-end-line="217" selection-end-column="15" />
+            <state>
+              <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="28" column="19" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1479">
-              <caret line="87" column="84" selection-start-line="87" selection-start-column="84" selection-end-line="87" selection-end-column="84" />
+            <state>
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -70,7 +121,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
+            <state>
               <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -91,6 +142,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>currentHead</find>
+      <find>group</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -119,16 +171,30 @@
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="545" />
-    <option name="y" value="70" />
-    <option name="width" value="1000" />
-    <option name="height" value="635" />
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="446" />
+    <option name="y" value="38" />
+    <option name="width" value="1418" />
+    <option name="height" value="914" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -161,6 +227,13 @@
               <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LinkedList" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LinkedList" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="SCJP" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -175,7 +248,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -197,7 +270,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Basic">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.SCJP.Basic" />
       <module name="LinkedList" />
@@ -212,12 +285,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Problems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedlist.com.STACKS.Problems" />
+    <configuration name="FindThirdLargestElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrays.FindThirdLargestElement" />
       <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.linkedlist.com.STACKS.*" />
+          <option name="PATTERN" value="com.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -226,16 +299,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseAString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.linkedlist.com.strings.ReverseAString" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.arrays.MergeSort" />
       <module name="LinkedList" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.linkedlist.com.strings.*" />
+          <option name="PATTERN" value="com.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <extension name="recording" autostart="false" />
+      <extension name="recording" autostart="false">
+        <include_pattern>
+          <option name="PATTERN" value="com.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+        <include_pattern>
+          <option name="PATTERN" value="org.binaryTree.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+        <include_pattern>
+          <option name="PATTERN" value="com.com.SCJP.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+        <include_pattern>
+          <option name="PATTERN" value="com.arrays.*" />
+          <option name="ENABLED" value="true" />
+          <option name="INCLUDE" value="true" />
+        </include_pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,19 +374,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Problems" />
-      <item itemvalue="Application.ReverseAString" />
       <item itemvalue="Application.StringProblems" />
       <item itemvalue="Application.TreeApp" />
       <item itemvalue="Application.Basic" />
+      <item itemvalue="Application.FindThirdLargestElement" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.FindThirdLargestElement" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.StringProblems" />
         <item itemvalue="Application.TreeApp" />
-        <item itemvalue="Application.Problems" />
-        <item itemvalue="Application.ReverseAString" />
       </list>
     </recent_temporary>
   </component>
@@ -318,10 +412,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -330,7 +423,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3282123" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3228022" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52374303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -411,25 +504,25 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java</url>
-          <line>223</line>
+          <line>221</line>
           <properties />
           <option name="timeStamp" value="28" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java</url>
-          <line>218</line>
+          <line>216</line>
           <properties />
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java</url>
-          <line>220</line>
+          <line>218</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java</url>
-          <line>222</line>
+          <line>220</line>
           <properties />
           <option name="timeStamp" value="31" />
         </line-breakpoint>
@@ -571,16 +664,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="208" column="33" selection-start-line="208" selection-start-column="33" selection-end-line="208" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/lang/String.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3111">
@@ -604,8 +687,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state>
           <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -614,11 +721,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="89" selection-start-line="5" selection-start-column="89" selection-end-line="5" selection-end-column="89" />
+        <state>
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
           <folding>
             <element signature="e#0#4574#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
