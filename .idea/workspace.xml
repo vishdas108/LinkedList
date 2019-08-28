@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/HashCodeEquals.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/StringExamples.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/arrays/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/arrays/MergeSort.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/Basic1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/linkedlist/com/strings/StringProblems.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/JavaDataTypes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/JavaDataTypes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/com/SCJP/String.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,39 +25,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-9">
-              <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -73,17 +36,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="374">
               <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            <state relative-caret-position="357">
+              <caret line="117" selection-start-line="117" selection-end-line="117" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/HashMap.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17374">
+              <caret line="1071" selection-start-line="1071" selection-end-line="1071" />
             </state>
           </provider>
         </entry>
@@ -91,11 +66,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="1428">
               <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#4574#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -103,17 +75,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="340">
               <caret line="20" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/StringExamples.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="198">
+              <caret line="98" selection-start-line="98" selection-end-line="98" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/HashCodeEquals.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#419#420#0" expanded="true" />
+                <element signature="e#458#459#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,7 +110,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="714">
               <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -172,7 +161,6 @@
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java" />
@@ -180,6 +168,9 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/LargestElementInArray.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/StringExamples.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/com/SCJP/HashCodeEquals.java" />
       </list>
     </option>
   </component>
@@ -190,11 +181,11 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="446" />
-    <option name="y" value="38" />
-    <option name="width" value="1418" />
-    <option name="height" value="914" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="445" />
+    <option name="y" value="35" />
+    <option name="width" value="1420" />
+    <option name="height" value="915" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -244,6 +234,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -270,7 +261,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MergeSort">
+  <component name="RunManager" selected="Application.HashCodeEquals">
     <configuration name="Basic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.com.SCJP.Basic" />
       <module name="LinkedList" />
@@ -299,7 +290,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HashCodeEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.SCJP.HashCodeEquals" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.SCJP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MergeSort" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.arrays.MergeSort" />
       <module name="LinkedList" />
       <extension name="coverage">
@@ -334,6 +339,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StringExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.com.SCJP.StringExamples" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.com.SCJP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StringProblems" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.linkedlist.com.strings.StringProblems" />
       <module name="LinkedList" />
@@ -359,34 +378,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.binaryTree.TreeApp" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.binaryTree.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="recording" autostart="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
+      <item itemvalue="Application.MergeSort" />
       <item itemvalue="Application.StringProblems" />
-      <item itemvalue="Application.TreeApp" />
       <item itemvalue="Application.Basic" />
       <item itemvalue="Application.FindThirdLargestElement" />
-      <item itemvalue="Application.MergeSort" />
+      <item itemvalue="Application.StringExamples" />
+      <item itemvalue="Application.HashCodeEquals" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.HashCodeEquals" />
+        <item itemvalue="Application.StringExamples" />
         <item itemvalue="Application.FindThirdLargestElement" />
         <item itemvalue="Application.Basic" />
         <item itemvalue="Application.StringProblems" />
-        <item itemvalue="Application.TreeApp" />
       </list>
     </recent_temporary>
   </component>
@@ -412,9 +418,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18993288" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14161074" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -422,8 +429,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3228022" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4517611" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.52374303" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -431,7 +438,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32681563" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32618684" />
       <window_info anchor="bottom" id="Code comment" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -685,33 +692,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/StringProblems.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-9">
+        <state relative-caret-position="1394">
           <caret line="82" column="20" selection-start-line="82" selection-start-column="20" selection-end-line="82" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -719,26 +702,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#4574#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/FindThirdLargestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="493">
           <caret line="29" column="47" selection-start-line="29" selection-start-column="47" selection-end-line="29" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/SumOfDistinctElements.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="663">
           <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -755,15 +728,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ThreeSmallestElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="374">
           <caret line="22" column="162" selection-start-line="22" selection-start-column="162" selection-end-line="22" selection-end-column="162" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/util/HashMap.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17374">
+          <caret line="1071" selection-start-line="1071" selection-end-line="1071" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/Basic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1428">
+          <caret line="89" column="23" selection-start-line="89" selection-start-column="23" selection-end-line="89" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="59" selection-start-line="45" selection-start-column="59" selection-end-line="45" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/MergeSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+        <state relative-caret-position="357">
+          <caret line="117" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/JavaDataTypes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/lang/System.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="133" column="29" selection-start-line="133" selection-start-column="29" selection-end-line="133" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/StringExamples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_201/jre/lib/rt.jar!/java/lang/Integer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="244" column="119" selection-start-line="244" selection-start-column="112" selection-end-line="244" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/HashCodeEquals.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#458#459#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
