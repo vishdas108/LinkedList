@@ -8,7 +8,7 @@ public class ReAllingn {
 
     public static void main(String[] args) {
 
-        int [] array = {4,-4,-1,-3,2,5,8,-7,9,-9};
+        int [] array = {-1,-4,-1,-3,2,5,8,-7,9,-9,10};
         System.out.println(Arrays.toString(array));
         int [] newArray = new int [array.length];
                 int newArrayIndex=0;
