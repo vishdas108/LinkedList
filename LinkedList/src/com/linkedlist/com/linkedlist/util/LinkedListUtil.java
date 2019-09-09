@@ -18,8 +18,8 @@ public class LinkedListUtil {
     }
 
     public LinkedListUtil add(int ... args){
-
-            linkedList =new LinkedList<>();
+            if (linkedList==null);
+                linkedList =new LinkedList<>();
         for (int arg:args
              ) {
             linkedList.add(arg);
