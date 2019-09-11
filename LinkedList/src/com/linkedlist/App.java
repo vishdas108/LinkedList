@@ -19,8 +19,14 @@ public class App {
         ll.insertEnd(10);
 
         ll.insertEnd(11);
-        ll.reverse();
-        ll.reverseInGroup(2);
+      //  System.out.println(ll.popHead().data);
+      //  System.out.println(ll.popHead().data);
+       // System.out.println(ll.popHead().data);
+        ll.oddEvenList(ll.getHead());
+
+
+        //  ll.reverse();
+        //ll.reverseInGroup(2);
 
     //committed
        // ll.deleteAll(10);

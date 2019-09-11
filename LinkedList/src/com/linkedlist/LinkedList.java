@@ -12,6 +12,13 @@ public class LinkedList {
 
         }
 
+
+        public LinkedListNode getHead(){
+
+            return head;
+        }
+
+
     public void insertStart(int data){
         LinkedListNode newNode = new LinkedListNode(data);
 
@@ -111,6 +118,25 @@ public class LinkedList {
 
     }
 
+    public LinkedListNode insertEndNode(LinkedListNode insertNode, LinkedListNode headNode){
+
+            LinkedListNode traverseNode = headNode;
+            if(traverseNode==null){
+                headNode = insertNode;
+
+                return headNode;
+            }
+            while(traverseNode!=null&& traverseNode.nextNode!=null){
+                traverseNode = traverseNode.nextNode;
+
+            }
+
+            traverseNode.nextNode= insertNode;
+
+            return headNode;
+    }
+
+
     public void insertMiddle(int data){
         LinkedListNode newNode= new LinkedListNode(data);
         LinkedListNode smallPointer=head;
@@ -165,6 +191,20 @@ public class LinkedList {
     }
 
 
+    public LinkedListNode delinkHead(LinkedListNode headNode){
+        if(headNode==null){
+            return null;
+        }
+        LinkedListNode bkpNode = headNode.nextNode;
+        LinkedListNode poppedNode = headNode;
+
+        poppedNode.nextNode= null;
+        headNode = bkpNode;
+        return headNode;
+
+    }
+
+
     public LinkedListNode popHead(){
         if (head==null)
             return null;
@@ -186,6 +226,16 @@ public class LinkedList {
 
         }
 
+        public void traverse(LinkedListNode headNode){
+        LinkedListNode traverseNode = headNode;
+        while (traverseNode!=null){
+            System.out.println(traverseNode.data);
+            traverseNode= traverseNode.nextNode;
+        }
+
+        }
+
+
     public void traverse(){
 
         LinkedListNode traverseNode = head;
@@ -197,6 +247,48 @@ public class LinkedList {
         }
     }
 
+
+    public LinkedListNode oddEvenList(LinkedListNode headNode){
+
+
+
+
+
+        LinkedListNode traverseNode = headNode;
+        LinkedListNode oddNode = null;
+        LinkedListNode evenNode =null;
+
+
+        while(traverseNode!=null){
+
+           // LinkedListNode tempNode = traverseNode.nextNode;
+            LinkedListNode oddNodeItem = traverseNode;
+
+            traverseNode = delinkHead(traverseNode);
+
+            oddNode =  insertEndNode(oddNodeItem,oddNode);
+
+            LinkedListNode evenNodeItem = traverseNode;
+
+           traverseNode = delinkHead(traverseNode);
+
+           evenNode= insertEndNode(evenNodeItem, evenNode);
+            if(traverseNode==null){
+                break;
+            }
+
+
+
+        }
+        oddNode=    insertEndNode(evenNode, oddNode);
+
+    //    traverse(oddNode);
+    //    System.out.println(evenNode.toString());
+
+
+
+        return oddNode;
+    }
 
         public void mergeTwoList(){
 

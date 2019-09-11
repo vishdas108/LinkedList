@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/guava_10_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedList/src/com/gcache/GoogleCache.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/LinkedList.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/LinkedList.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LinkedList/com/arrays/ArrayOperations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LinkedList/com/arrays/ArrayOperations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,90 +18,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/StringExamples.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="98" selection-start-line="98" selection-end-line="98" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/com/SCJP/HashCodeEquals.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#419#420#0" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ReAllingn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3681#3682#0" expanded="true" />
-                <element signature="e#3750#3751#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListCodeSnippets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
+            <state relative-caret-position="1004">
+              <caret line="133" column="45" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="45" />
               <folding>
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
@@ -115,29 +32,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/gcache/GoogleCache.java">
+        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#380#543#0" expanded="true" />
-                <element signature="e#542#543#0" expanded="true" />
-                <element signature="e#567#568#0" expanded="true" />
-                <element signature="e#603#604#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1173">
-              <caret line="69" column="7" selection-start-line="69" selection-start-column="7" selection-end-line="69" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="111">
+              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -173,12 +71,10 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/Reverse_Linked_List_in_groups/ReverseLinkedListIngroup.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListCodeSnippets.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/ReverseAString.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/Arrays.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/STACKS/Problems.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/strings/RegularExpressin.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeNode.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/BinaryTree.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/org/binaryTree/TreeApp.java" />
@@ -200,6 +96,8 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/gcache/GoogleCache.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
       </list>
     </option>
   </component>
@@ -212,7 +110,7 @@
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="445" />
-    <option name="y" value="36" />
+    <option name="y" value="35" />
     <option name="width" value="1420" />
     <option name="height" value="915" />
   </component>
@@ -306,7 +204,21 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ArrayOperations">
+  <component name="RunManager" selected="Application.App">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.linkedlist.App" />
+      <module name="LinkedList" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.linkedlist.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <extension name="recording" autostart="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ArrayOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.arrays.ArrayOperations" />
       <module name="LinkedList" />
@@ -419,35 +331,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.com.SCJP.StringExamples" />
-      <module name="LinkedList" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.com.SCJP.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <extension name="recording" autostart="false" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.MergeSort" />
-      <item itemvalue="Application.StringExamples" />
       <item itemvalue="Application.HashCodeEquals" />
       <item itemvalue="Application.ReAllingn" />
       <item itemvalue="Application.ArrayOperations" />
       <item itemvalue="Application.GoogleCache" />
+      <item itemvalue="Application.App" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.ArrayOperations" />
         <item itemvalue="Application.GoogleCache" />
         <item itemvalue="Application.ReAllingn" />
         <item itemvalue="Application.HashCodeEquals" />
-        <item itemvalue="Application.StringExamples" />
       </list>
     </recent_temporary>
   </component>
@@ -476,7 +374,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23087248" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23087248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -485,7 +383,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.27258804" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15007657" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.44104135" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -551,15 +449,9 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
-          <line>128</line>
+          <line>154</line>
           <properties />
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
-          <line>76</line>
-          <properties />
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/problems/StackUsingLinkedList/sorting/InsertionSort.java</url>
@@ -627,6 +519,18 @@
           <properties />
           <option name="timeStamp" value="54" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
+          <line>276</line>
+          <properties />
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
+          <line>279</line>
+          <properties />
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -673,13 +577,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -890,13 +787,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="18" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/GoogleCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -909,21 +799,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="98" column="30" selection-start-line="98" selection-start-column="30" selection-end-line="98" selection-end-column="30" />
-          <folding>
-            <element signature="e#131#132#0" expanded="true" />
-            <element signature="e#170#171#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/gcache/GoogleCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
-          <caret line="5" column="27" lean-forward="true" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#380#543#0" expanded="true" />
@@ -937,7 +816,7 @@
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="281">
-          <caret line="354" lean-forward="true" selection-start-line="354" selection-end-line="354" />
+          <caret line="354" selection-start-line="354" selection-end-line="354" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#3681#3682#0" expanded="true" />
@@ -949,16 +828,41 @@
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListCodeSnippets.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="20" column="34" selection-start-line="20" selection-start-column="34" selection-end-line="20" selection-end-column="34" />
+        <state relative-caret-position="374">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1004">
+          <caret line="133" column="45" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="45" />
+          <folding>
+            <element signature="e#131#132#0" expanded="true" />
+            <element signature="e#170#171#0" expanded="true" />
           </folding>
         </state>
       </provider>
