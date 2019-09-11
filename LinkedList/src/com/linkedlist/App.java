@@ -22,7 +22,10 @@ public class App {
       //  System.out.println(ll.popHead().data);
       //  System.out.println(ll.popHead().data);
        // System.out.println(ll.popHead().data);
-        ll.oddEvenList(ll.getHead());
+     //   ll.oddEvenList(ll.getHead());
+        ll.reverse();
+
+        ll.splitListIntoParts(ll.getHead(), 1);
 
 
         //  ll.reverse();
@@ -32,6 +35,6 @@ public class App {
        // ll.deleteAll(10);
 
 
-        ll.traverse();
+//        ll.traverse();
     }
 }

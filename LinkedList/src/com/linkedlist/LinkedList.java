@@ -1,5 +1,8 @@
 package com.linkedlist;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class LinkedList {
 
     public LinkedListNode head;
@@ -288,6 +291,77 @@ public class LinkedList {
 
 
         return oddNode;
+    }
+
+    public int getSize(LinkedListNode head){
+        int count =0;
+
+        LinkedListNode traverseNode = head;
+
+        while(traverseNode!=null)
+        {
+            count++;
+            traverseNode = traverseNode.nextNode;
+        }
+
+    return count;
+    }
+
+    public List<? extends LinkedListNode> splitListIntoParts(LinkedListNode root, int k){
+
+        // firstGetCount
+        // if count < kParts, {single node list, rest is null}
+        // divide count/ kparts, {dividecount node list, rest mixture of list and null's}
+
+        LinkedListNode traverseNode = root;
+        int count = getSize(root);
+        System.out.println(count);
+        int splitCount=count/k;
+        int endSplice= count%k;
+        System.out.println( " split count "+ splitCount + " remaining "+ endSplice);
+        List<LinkedListNode> nodeList = new ArrayList<>();
+        int kPartsBkp = k;
+        int  splitCountBkp = splitCount;
+        while (kPartsBkp>0 && traverseNode!=null){
+            kPartsBkp--;
+                LinkedListNode innerNode =null;
+                LinkedListNode previousNode = null;
+                if(endSplice>0){
+                splitCountBkp+=1;
+                endSplice--;
+                }
+            while (splitCountBkp > 0 && traverseNode!=null){
+
+                LinkedListNode innerHeadNode = traverseNode;
+                LinkedListNode bkpNode= traverseNode.nextNode;
+                innerHeadNode.nextNode=null;
+                traverseNode= bkpNode;
+                if( innerNode==null){
+                    nodeList.add(innerHeadNode);
+                    previousNode= innerHeadNode;
+                    innerNode= innerHeadNode;
+                }else if(previousNode!=null && innerHeadNode!=null){
+                    previousNode.nextNode= innerHeadNode;
+                    previousNode= previousNode.nextNode;
+                }
+
+                splitCountBkp--;
+                // insertEnd:
+
+
+            }
+             previousNode =null;
+            innerNode=null;
+
+            splitCountBkp=count/k;
+
+
+
+        }
+
+
+
+        return nodeList;
     }
 
         public void mergeTwoList(){

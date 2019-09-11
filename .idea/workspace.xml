@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ac14b31-5513-4c3f-acd6-eeceb585d13d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" afterDir="false" />
     </list>
@@ -21,9 +20,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1004">
-              <caret line="133" column="45" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="45" />
+            <state relative-caret-position="53">
+              <caret line="364" column="5" lean-forward="true" selection-start-line="364" selection-start-column="5" selection-end-line="364" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#131#132#0" expanded="true" />
                 <element signature="e#170#171#0" expanded="true" />
               </folding>
@@ -34,8 +34,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+            <state relative-caret-position="76">
+              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -96,8 +96,8 @@
         <option value="$PROJECT_DIR$/LinkedList/src/com/arrays/ArrayOperations.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/gcache/GoogleCache.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/com/linkedlist/util/LinkedListUtil.java" />
-        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
         <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java" />
+        <option value="$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java" />
       </list>
     </option>
   </component>
@@ -383,8 +383,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924962" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.15007657" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.44104135" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.25421134" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.76875955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -449,7 +449,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
-          <line>154</line>
+          <line>157</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -521,15 +521,27 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
-          <line>276</line>
+          <line>279</line>
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
-          <line>279</line>
+          <line>282</line>
           <properties />
           <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
+          <line>352</line>
+          <properties />
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java</url>
+          <line>363</line>
+          <properties />
+          <option name="timeStamp" value="95" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -851,16 +863,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+        <state relative-caret-position="76">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/LinkedList/src/com/linkedlist/LinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1004">
-          <caret line="133" column="45" selection-start-line="133" selection-start-column="35" selection-end-line="133" selection-end-column="45" />
+        <state relative-caret-position="53">
+          <caret line="364" column="5" lean-forward="true" selection-start-line="364" selection-start-column="5" selection-end-line="364" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#131#132#0" expanded="true" />
             <element signature="e#170#171#0" expanded="true" />
           </folding>
