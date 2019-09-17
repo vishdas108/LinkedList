@@ -1,6 +1,8 @@
 package com.arrays;
 
 import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Random;
 
 public class ArrayOperations {
@@ -9,8 +11,8 @@ public class ArrayOperations {
     public static void main(String[] args) {
 
         System.out.println(Arrays.toString(array));
-        rotateAnArray();
-
+       // rotateAnArray();
+        largeGroups();
     }
 
         public static void rotateAnArray(){
@@ -351,6 +353,67 @@ public class ArrayOperations {
 
         }
         System.out.println(Arrays.toString(ret));
+
+
+    }
+
+
+    public static void largeGroups(){
+
+
+
+        String input ="abcdddeeeeaabbbcdddd";
+
+        char previous= input.charAt(0);
+        int count=1;
+        int start =0;
+            int [][] counts = new int[input.length()][2];
+       // Map<Character,String> map = new HashMap<>();
+        for (int i = 1; i < input.length() ; i++) {
+
+            if(input.charAt(i)== previous || i == input.length()-1){
+                count++;
+                if(i == input.length()-1&& count>=3){
+                    counts[i][0]=start;
+                    counts[i][1]=(start+count-1);
+                 //   map.put(previous, "{"+start+","+ (start+count-1)+"}");
+                }
+
+
+                continue;
+            }else{
+
+                if(count>=3){
+                    counts[i][0]=start;
+                    counts[i][1]=start+count-1;
+                //    map.put(previous, "{"+start+","+ (start+count-1)+"}");
+                }
+
+                start=i;
+
+
+                count=1;
+                previous= input.charAt(i);
+                continue;
+
+            }
+
+
+
+
+
+        }
+       // System.out.println(map);
+        for (int i = 0; i < counts.length; i++) {
+            if(counts[i][0]>0){
+            System.out.print(" "+counts[i][0]);
+            System.out.print(",");
+
+            System.out.print(counts[i][1]);
+                System.out.println();}
+        }
+
+
 
 
     }
