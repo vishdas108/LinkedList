@@ -87,17 +87,17 @@ public class ArrayOperations {
 
     }
 
-    public static int searchBinary(int start, int end, int number){
+    public static int searchBinary(int start, int end, int number) {
 
 
-        int mid = (start+end)/2;
+        int mid = (start + end) / 2;
 
-        if(array[mid]==number){
+        if (array[mid] == number) {
             return mid;
-        }else if(number<array[mid]){
-           return searchBinary(start,mid,number);
-        }else if(number>array[mid]){
-            return searchBinary(mid+1,end,number);
+        } else if (number < array[mid]) {
+            return searchBinary(start, mid, number);
+        } else if (number > array[mid]) {
+            return searchBinary(mid + 1, end, number);
         }
 
         return -1;

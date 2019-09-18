@@ -1,5 +1,7 @@
 package com.linkedlist.com.strings;
 
+
+
 import java.math.BigDecimal;
 import java.math.BigInteger;
 import java.math.RoundingMode;
@@ -9,6 +11,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.regex.Pattern;
+import java.lang.String;
 
 public class StringProblems {
 
@@ -36,7 +39,7 @@ public class StringProblems {
         INSTANCE.substringwithConcatenationOfAllWords("",new String []{});
 
 
-
+        INSTANCE.reversePartOfAString();
 
        // nativeValue = nativeValue.setScale(digitsAfterPointMax, RoundingMode.);
 
@@ -231,5 +234,54 @@ TODO
         }
 
                 System.out.println("longest substring === "+ result+ " size " + result.length());
+            }
+
+
+            public void reversePartOfAString(){
+                String input ="Hi how are you geeks ";
+                // output should be: Hi woh era uoy geeks
+
+                String[] tokens = input.split(" ");
+
+                StringBuilder result = new StringBuilder();
+                result.append(tokens[0]+" ");
+
+                for (int i = 1; i < tokens.length-1; i++) {
+
+                    String string = tokens[i];
+
+
+
+                    String reversedToken = reverseString(String.valueOf(string.charAt(string.length() - 1)).concat(string.substring(0, string.length() - 1)), 1);
+                    result.append(reversedToken+" ");
+
+                }
+                result.append(tokens[tokens.length-1]);
+
+
+                System.out.println(result.toString());
+
+
+
+            }
+
+
+            public String reverseString(String input, int index){
+
+                    if(input.length()< index){
+                        return input;
+
+                    }
+                String firstPart = input.substring(0, index);
+                String endPart = String.valueOf(input.charAt(input.length() - 1));
+                String middlePart = input.substring(index, input.length() - 1);
+                if(middlePart.length()==0){
+                    return firstPart+endPart;
+                }
+                // String concat = .concat().concat() ;
+
+                return reverseString(firstPart+endPart+middlePart, ++index);
+
+
             }
 }
